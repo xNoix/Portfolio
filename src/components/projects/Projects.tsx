@@ -1,5 +1,5 @@
 function Projects() {
-  return <h1>Hello World from Projects</h1>;
+  return <div>Projects</div>;
 }
 
 export default Projects;

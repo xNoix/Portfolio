@@ -13,8 +13,10 @@
     "eslint-config-airbnb-typescript": "^17.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
     "react-router": "^6.9.0",
-    "react-router-dom": "^6.9.0"
+    "react-router-dom": "^6.9.0",
+    "sass": "^1.59.1"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",

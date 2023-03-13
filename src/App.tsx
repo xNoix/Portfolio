@@ -1,5 +1,6 @@
-import { HashRouter, Link, Route, Routes } from 'react-router-dom';
-import Blog from './pages/Blog';
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import Header from './components/common/Header';
+import Blog from './pages/BlogPage';
 import Contact from './pages/Contact';
 import Experience from './pages/Experience';
 import Home from './pages/Home';
@@ -10,29 +11,7 @@ import Skills from './pages/Skills';
 export function App() {
   return (
     <div>
-      <h1>Hello World</h1>
-      <nav>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/skills">Skills</Link>
-          </li>
-          <li>
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li>
-            <Link to="/experience">Experience</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
-        </ul>
-      </nav>
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
